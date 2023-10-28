@@ -9,7 +9,7 @@ const publickey = new Web3.PublicKey("5k2cALiKk3crXjLbFvPoFCDBJwZ67LhtbkDLv89sPh
 
 const decoded = base58.decode('Lr7gt6pgNaaTmJ4hMdcxhZ7Fcv934dECDSh4qmmrNqx3uSyQT796tByyugTanZ51H7fZWkX6XZznGyBFNdg7nLe')
 const keyPair = Web3.Keypair.fromSecretKey(decoded)
-const tokenMint = "8DnyrAg28ueH2vHr7c4tEEorvFWd7DY1sxnGmjcuAV35"
+const tokenMint = "7L8FgsDonW4RXhwArAhks2qKyavd26waHspveqGjjLzK"
 
 async function main(){
     const tokenAccount  = await token.createAccount(

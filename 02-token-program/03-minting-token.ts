@@ -12,9 +12,9 @@ async function main(){
     const mintToken = await token.mintTo(
         connection,
         signer,
-        new Web3.PublicKey('8DnyrAg28ueH2vHr7c4tEEorvFWd7DY1sxnGmjcuAV35'), //mint 
-        new Web3.PublicKey('EdY5p1mUuc9ExgMUNW6fgrUTSDWAtuBoAgoiy4U9mQar'), //owner
-        new Web3.PublicKey('9znAhJKuiWRfoeGE4fo8Nt2haK3yw2DeHqgCKK81kGPc'), //authority
+        new Web3.PublicKey('7L8FgsDonW4RXhwArAhks2qKyavd26waHspveqGjjLzK'), //mint 
+        new Web3.PublicKey('86t9YaCeNQXvd9jneStCEdaUJYFK63LperewLo2CK7wH'), //owner
+        new Web3.PublicKey('EdY5p1mUuc9ExgMUNW6fgrUTSDWAtuBoAgoiy4U9mQar'), //authority
         100, //amount
     )
     console.log('mint Token ', mintToken)
